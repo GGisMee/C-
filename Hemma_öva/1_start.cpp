@@ -5,7 +5,7 @@ int main(){
     /*standard caracter output*/
 
 
-    std::cout << "I like pizza!"<< std::endl;
+    std::cout << "I like pizza!" << "\nand ";
     std::cout<< "Its really good!" << std::endl;
     
 

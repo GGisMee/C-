@@ -14,6 +14,6 @@ int main(){
     cout<<"Enter side B: ";
     cin>>b;
 
-    cout<<"\nc ="<<sqrt(pow(a, 2)+pow(b, 2))<<"\n";
+    cout<<"c = "<<sqrt(pow(a, 2)+pow(b, 2))<<"\n";
 
 }
