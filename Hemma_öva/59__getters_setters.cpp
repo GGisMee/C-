@@ -13,6 +13,9 @@ class Stove{
         if (wattage < 0){
             this->wattage = 0;
         }
+        else if(wattage >= 3000){
+            this->wattage=3000;
+        }
         else {
         this->wattage = wattage;
         }
@@ -27,9 +30,8 @@ int main(){
     Stove stove;
     stove.temperature = 100; // man kan ändra eftersom den är i public
     // stove.wattage = 100; // denna producerar ett error eftersom man inte kan ändra en variabel i private
-
+    std::string name = "hellooo";
     std::cout<<stove.getWattage(); // Använder en getter för att läsa av innehållet på wattage
-    stove.setWattage(500);
     std::cout<<std::endl<<stove.getWattage(); // Använder en getter för att läsa av innehållet på wattage
 
 }
